@@ -27,8 +27,6 @@ android {
 }
 
 dependencies {
-    // LSPosed API，必须使用 compileOnly，不能打包进APK
     compileOnly 'io.github.libxposed:api:101'
-    // OkHttp 依赖（仅用于编译时，运行时由目标应用提供）
     compileOnly 'com.squareup.okhttp3:okhttp:4.12.0'
 }
