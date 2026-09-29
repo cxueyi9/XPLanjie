@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.responseinterceptor">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <application
         android:allowBackup="false"
-        android:icon="@android:drawable/ic_menu_manage"
         android:label="Response Interceptor"
-        android:supportsRtl="true"
-        android:theme="@android:style/Theme.DeviceDefault">
+        android:supportsRtl="true">
 
-        <!-- LSPosed 模块声明：必须的 meta-data -->
         <meta-data
             android:name="xposedmodule"
             android:value="true" />
@@ -20,7 +16,6 @@
             android:name="xposedminversion"
             android:value="93" />
 
-        <!-- 模块入口 Activity（可选，但推荐加，方便在 Launcher 中看到图标） -->
         <activity
             android:name=".MainActivity"
             android:exported="true">
