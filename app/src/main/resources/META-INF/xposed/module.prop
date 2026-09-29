@@ -3,4 +3,9 @@ name=Response Interceptor
 version=v1.0
 versionCode=1
 author=YourName
-description=Intercepts and replaces HTTP responses for a specific URL.
+description=拦截指定 URL 的响应并替换为自定义 JSON。
+# 关键配置：明确声明 API 版本和现代特性
+minApiVersion=102
+targetApiVersion=102
+autoHotReload=true
+exceptionMode=protective
