@@ -1,0 +1,6 @@
+id=com.example.responseinterceptor
+name=Response Interceptor
+version=v1.0
+versionCode=1
+author=YourName
+description=Intercepts and replaces HTTP responses for a specific URL.
